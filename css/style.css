@@ -1,0 +1,157 @@
+:root {
+  --primary-color: #757575;
+  --secondary-color: rgba(255, 255, 255, 0.6);
+  --brand-color: #2196f3;
+  --black-color: #212121;
+  --white-color: #fff;
+  --intro-color: rgba(47, 48, 58, 0.4);
+  --futer-color: #2f303a;
+  --grey-color: rgba(255, 255, 255, 0.6);
+  --grey-color-lighter: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto","Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--black-color);
+}
+
+.h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--brand-color);
+}
+
+.menu a {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:focus {
+  color: var(--brand-color);
+}
+
+.header-contacts a {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--brand-color);
+}
+
+.intro {
+  background-color: var(--intro-color);
+}
+
+.intro-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.intro-button {
+  border: none;
+  background-color: var(--brand-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.benefits p {
+  line-height: 1.71;
+}
+
+.fullname {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--black-color);
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.footer {
+  background: var(--futer-color);
+}
+
+.location {
+  font-style: normal;
+  color: var(--white-color);
+}
+
+.footer-contacts a {
+  color: var(--grey-color);
+  text-decoration: none;
+}
+
+.project-list h3 {
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-list p {
+  line-height: 1.87;
+}
+
+.category-button {
+  border: none;
+  background-color: var(--grey-color-lighter);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.category-button:hover {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
