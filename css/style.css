@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Roboto","Helvetica Neue", sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -30,7 +30,6 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase;
   color: var(--black-color);
 }
 
@@ -47,6 +46,10 @@ body {
   color: var(--brand-color);
 }
 
+.menu {
+  list-style-type: none;
+}
+
 .menu a {
   font-weight: 500;
   line-height: 1.14;
@@ -58,6 +61,10 @@ body {
 .menu a:hover,
 .menu a:focus {
   color: var(--brand-color);
+}
+
+.header-contacts {
+  list-style-type: none;
 }
 
 .header-contacts a {
@@ -80,7 +87,7 @@ body {
 .intro-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.5;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -97,10 +104,27 @@ body {
   letter-spacing: 0.06em;
   color: var(--white-color);
   cursor: pointer;
+  font-family: inherit;
+}
+
+.benefits h3 {
+  text-transform: uppercase;
 }
 
 .benefits p {
   line-height: 1.71;
+}
+
+.benefits-list {
+  list-style-type: none;
+}
+
+.work-list {
+  list-style-type: none;
+}
+
+.team-list {
+  list-style-type: none;
 }
 
 .fullname {
@@ -122,14 +146,26 @@ body {
   background: var(--futer-color);
 }
 
+.footer-logo {
+  color: var(--white-color);
+}
+
 .location {
   font-style: normal;
   color: var(--white-color);
 }
 
+.footer-contacts {
+  list-style-type: none;
+}
+
 .footer-contacts a {
   color: var(--grey-color);
   text-decoration: none;
+}
+
+.project-list {
+  list-style-type: none;
 }
 
 .project-list h3 {
@@ -141,6 +177,10 @@ body {
   line-height: 1.87;
 }
 
+.category-list {
+  list-style-type: none;
+}
+
 .category-button {
   border: none;
   background-color: var(--grey-color-lighter);
@@ -148,6 +188,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  font-family: inherit;
 }
 
 .category-button:hover {
